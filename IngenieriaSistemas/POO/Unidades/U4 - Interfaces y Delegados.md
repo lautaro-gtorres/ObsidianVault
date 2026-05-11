@@ -57,12 +57,12 @@ class Circulo : IFigura {
 
 **Diferencia con clase abstracta:**
 
-| Aspecto | Interfaz | Clase Abstracta |
-|---|---|---|
-| Implementación | No (solo contrato) | Puede tener métodos concretos |
-| Herencia múltiple | ✅ Sí | ❌ No (una sola) |
-| Campos | ❌ No | ✅ Sí |
-| Constructor | ❌ No | ✅ Sí |
+| Aspecto           | Interfaz           | Clase Abstracta               |
+| ----------------- | ------------------ | ----------------------------- |
+| Implementación    | No (solo contrato) | Puede tener métodos concretos |
+| Herencia múltiple | ✅ Sí               | ❌ No (una sola)               |
+| Campos            | ❌ No               | ✅ Sí                          |
+| Constructor       | ❌ No               | ✅ Sí                          |
 
 > Relación con [[U2 - Relaciones entre Clases#Polimorfismo|Polimorfismo]] — las interfaces son otra forma de lograrlo
 
