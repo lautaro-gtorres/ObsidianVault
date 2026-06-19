@@ -154,13 +154,13 @@ BotonPresionado?.Invoke(this, EventArgs.Empty);
 
 ## 📊 Calidad de una Clase
 
-| Elemento | Descripción |
-|---|---|
-| **Acoplamiento** | Grado de dependencia con otras clases (bajo = mejor) |
-| **Cohesión** | Qué tan relacionadas están las responsabilidades (alta = mejor) |
-| **Suficiencia** | Tiene todo lo necesario para su abstracción |
-| **Compleción** | Captura todos los aspectos relevantes |
-| **Primitivas** | Los métodos hacen solo operaciones elementales |
+| Elemento         | Descripción                                                     |
+| ---------------- | --------------------------------------------------------------- |
+| **Acoplamiento** | Grado de dependencia con otras clases (bajo = mejor)            |
+| **Cohesión**     | Qué tan relacionadas están las responsabilidades (alta = mejor) |
+| **Suficiencia**  | Tiene todo lo necesario para su abstracción                     |
+| **Compleción**   | Captura todos los aspectos relevantes                           |
+| **Primitivas**   | Los métodos hacen solo operaciones elementales                  |
 
 ---
 
