@@ -84,18 +84,19 @@ INFORMACIÓN DE IDENTIDAD:
 
 ## Mapeo de Campos: Excel → BD Actual
 
-| Excel | BD Actual | Observación |
-|---|---|---|
-| Identificación | documentNumber | ✓ Mapeo directo |
-| Tipo de identificación | - | ✗ **No existe en BD** |
-| Nombre | lastName + secondLastName + names | ⚠️ Requiere separación |
-| Fecha de nacimiento | - | ✗ **No existe en BD** |
-| Puesto | employmentPosition | ✓ Mapeo directo |
-| Institución | countryEmployment | ⚠️ Incompleto (no es país) |
-| Fecha inicio de puesto | - | ✗ **No existe en BD** |
-| Fecha fin de puesto | - | ✗ **No existe en BD** |
-| Fecha fin de PEP | - | ✗ **No existe en BD** |
-| Es PEP vigente | enabled | ✓ Mapeo (Sí→true, No→false) |
+| Excel                  | BD Actual                         | Observación                 |
+| ---------------------- | --------------------------------- | --------------------------- |
+| Identificación         | documentNumber                    | ✓ Mapeo directo             |
+| Tipo de identificación | -                                 | ✗ **No existe en BD**       |
+| Nombre                 | lastName + secondLastName + names | ⚠️ Requiere separación      |
+| Fecha de nacimiento    | -                                 | ✗ **No existe en BD**       |
+| Puesto                 | employmentPosition                | ✓ Mapeo directo             |
+| Institución            | countryEmployment                 | ⚠️ Incompleto (no es país)  |
+| Fecha inicio de puesto | -                                 | ✗ **No existe en BD**       |
+| Fecha fin de puesto    | -                                 | ✗ **No existe en BD**       |
+| Fecha fin de PEP       | -                                 | ✗ **No existe en BD**       |
+| Es PEP vigente         | enabled                           | ✓ Mapeo (Sí→true, No→false) |
+|                        |                                   |                             |
 
 ---
 
